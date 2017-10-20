@@ -10,7 +10,9 @@ seems to be playing an old school text-based adventure
 game on his computer. There are corridors leading to the
 south and east. The exit is to the west.""",
 
-    "exits": {"south": "Admins" , "east" : "Tutor" , "west" : "Parking"} # COMPLETE ME! ADD EXITS!
+    "exits": {"south": "Admins" , "east" : "Tutor" , "west" : "Parking"},
+
+    #"items" : {item_handbook : "handbook", item_biscuits : "biscuits"}
 }
 
 room_admins = {
@@ -44,7 +46,7 @@ room_parking = {
 You can go south to the COMSC reception, or east to the
 general office.""",
 
-    "exits" : {"south" : "Reception", "east" : "the general office"}
+    "exits" : {"south" : "Reception", "east" : "Office"}
 }
 
 room_office = {
@@ -56,7 +58,9 @@ room_office = {
 in their eyes. If you go west you can return to the
 Queen's Buildings.""",
 
-    "exits" : {"west" : "the parking lot"}
+    "exits" : {"west" : "Parking"},
+
+    #"items" : {"pen" : item_pen}
 }
 
 
